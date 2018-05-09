@@ -1,0 +1,471 @@
+@font-face {
+    font-family: BaseOne-Bold;
+    font-weight: normal;
+    font-style: none;
+    src: url('../fonts/BaseOne-Bold.otf');
+}
+
+@font-face {
+    font-family: Comforta-Regular;
+    font-weight: normal;
+    font-style: none;
+    src: url('../fonts/Comfortaa_Regular.ttf');
+}
+
+
+@font-face {
+    font-family: BebasNeue-Bold;
+    font-weight: normal;
+    font-style: none;
+    src: url('../fonts/BebasNeue-Bold.otf');
+}
+
+@font-face {
+    font-family: Aileron-Regular;
+    font-weight: normal;
+    font-style: none;
+    src: url('../fonts/Aileron-Regular.otf');
+}
+
+@font-face {
+    font-family: Aileron-Regular;
+    font-weight: bold;
+    font-style: none;
+    src: url('../fonts/Aileron-Bold.otf');
+}
+
+@font-face {
+    font-family: CooperHewitt;
+    font-weight: normal;
+    font-style: none;
+    src: url('../fonts/CooperHewitt.otf');
+}
+
+@font-face {
+    font-family: IndieFlower;
+    font-weight: normal;
+    font-style: none;
+    src: url('../fonts/IndieFlower.ttf');
+}
+
+
+body {
+  background-image: url('../img/tlo3.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+* {
+  font-family: Lato;
+  color: white;
+}
+
+.przycisk {
+  width:400px;
+  background-color: rgb(0,0,0,0.4);
+  font-family: BaseOne-Bold;
+  font-size: 35px;
+  border: 2px solid #3f2c67;
+  margin-top: 2px;
+}
+
+h1 {
+  font-family: BebasNeue-Bold;
+  font-size: 55px;
+  font-weight: bold;
+  text-align:center;
+  text-shadow: 2px 2px #000000;
+}
+
+
+
+h2 {
+  font-family: BebasNeue-Bold;
+  font-size: 45px;
+  font-weight: bold;
+  text-align:center;
+  text-shadow: 2px 2px #000000;
+}
+
+h2.karty {
+    font-size: 40px;
+}
+
+h2.purple {
+ color: #8b3779;
+}
+
+h3 {
+  font-family: BebasNeue-Bold;
+  font-size: 35px;
+  font-weight: bold;
+  text-align:center;
+  margin-top: 8px;
+  text-shadow: 2px 2px #000000;
+}
+
+h3.purple {
+ color: #8b3779;
+}
+
+.przycisk:hover {
+  background-color: rgb(79,48,197,0.4);
+  border: 2px solid #3f2c67;
+}
+
+.przycisk2 {
+  width:400px;
+  background-color: rgb(0,0,0,0.3);
+  font-family: BaseOne-Bold;
+  font-size: 35px;
+  border: 2px solid #3f2c67;
+  margin-top: 25px;
+}
+
+.przycisk2:hover {
+  background-color: rgb(99,68,227,0.4);
+  border: 2px solid #3f2c67;
+}
+
+.przycisk3 {
+  width:400px;
+  background-color: rgb(0,0,0,0.3);
+  font-family: BaseOne-Bold;
+  font-size: 35px;
+  text-align:center;
+  border: 2px solid #3f2c67;
+}
+
+.przycisk3:hover {
+  background-color: rgb(99,68,227,0.4);
+  border: 2px solid #3f2c67;
+}
+
+.przycisk-blok {
+  max-width:300px;
+  width:100%;
+  background-color: rgb(0,0,0,0.4);
+  font-family: BaseOne-Bold;
+  font-size: 35px;
+  border: 2px solid #3f2c67;
+  margin-top: 2px;
+  padding: 0px 2px 0px 2px;
+}
+
+.przycisk-blok:hover {
+  background-color: rgb(79,48,197,0.4);
+  border: 2px solid #3f2c67;
+}
+
+.przycisk-pod {
+  max-width:320px;
+  width:100%;
+  background-color: rgb(0,0,0,0.4);
+  font-family: Aileron-Regular;
+  font-size: 15px;
+  border: 2px solid #3f2c67;
+  margin: 2px;
+  text-align:left;
+  padding: 2px 6px 2px 6px;
+}
+
+.przycisk-pod:hover {
+  background-color: rgb(79,48,197,0.4);
+  border: 2px solid #3f2c67;
+}
+
+.przycisk-pod2 {
+  max-width:320px;
+  width:100%;
+  background-color: rgb(0,0,0,0.1);
+  font-family: Aileron-Regular;
+  font-size: 15px;
+  border: 1px solid #3f2c67;
+  margin-top: 2px;
+  text-align:left;
+  padding: 2px 6px 2px 6px;
+}
+
+.przycisk-pod2:hover {
+  background-color: rgb(0,0,0,0.1);
+  border: 1px solid #3f2c67;
+}
+
+.przycisk-normal {
+  max-width:300px;
+  width:100%;
+  background-color: rgb(0,0,0,0.4);
+  font-family: BaseOne-Bold;
+  font-size: 35px;
+  border: 2px solid #3f2c67;
+  margin-top: 2px;
+  padding: 0px 2px 0px 2px;
+}
+
+.page-hm {
+  background-color: rgb(0,0,0,0.4);
+  border: 2px solid #1e1638;
+  border-radius: 15px;
+  padding: 5px 5px 15px 5px;
+  margin: 5px 0px 5px 0px;
+  font-family: Aileron-Regular;
+}
+
+.page-hm p,li {
+  line-height:160%;
+  text-align:justify;
+  padding: 0px 10px 0px 10px;
+  font-family: Aileron-Regular;
+}
+
+.page-hm2 {
+  background-color: rgb(0,0,0,0.4);
+  border: 2px solid #1e1638;
+  border-radius: 15px;
+  padding: 5px 5px 15px 5px;
+  margin: 0px 0px 5px 0px;
+  font-family: Aileron-Regular;
+}
+
+.page-hm2 p,li {
+  line-height:160%;
+  text-align:justify;
+  font-family: Aileron-Regular;
+}
+
+.page-hm3 {
+  background-color: rgb(0,0,0,0.4);
+  border: 2px solid #1e1638;
+  border-radius: 15px;
+  padding: 5px;
+  margin: 5px 0px 5px 0px;
+  font-family: Aileron-Regular;
+}
+
+.page-hm4 {
+  background-color: rgb(0,0,0,0.4);
+  border: 2px solid #1e1638;
+  border-radius: 15px;
+  padding: 5px 5px 5px 5px;
+  font-family: Aileron-Regular;
+}
+
+.blok-middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blok-cytat {
+  max-width:720px;
+  width:100%;
+  background-color: rgb(26, 31, 44,0.4);
+  font-family: Aileron-Regular;
+  font-size: 15px;
+  border: 1px solid #484E5C;
+  border-radius: 5px;
+  margin-top: 2px;
+  margin: 0 auto;
+  text-align:justify;
+  padding: 20px 20px 0px 20px;
+}
+
+.blok-cytat p {
+  text-align:right;
+  color: #6d41b5;
+  font-family: Aileron-Regular;
+  font-weight:bold;
+}
+
+.cytaty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cytaty p {
+  font-family: IndieFlower;
+  font-size: 20px;
+  text-align:center;
+  padding: 5px 15px 15px 5px;
+  margin: 0px 0px 5px 0px;
+}
+
+img.lewy {
+  float:left;
+  margin: 10px 15px 10px 15px;
+  border: 3px solid #3f2c67;
+  max-width:320px;
+  width:100%;
+}
+
+img.prawy {
+  float:right;
+  margin: 10px 15px 10px 15px;
+  border: 3px solid #3f2c67;
+  max-width:320px;
+  width:100%;
+}
+
+img.lewy2 {
+  float:left;
+  margin: 10px 15px 10px 15px;
+  border: 3px solid #3f2c67;
+  max-width:220px;
+  width:100%;
+}
+
+img.lewy3 {
+  float:left;
+  margin: 10px 15px 10px 15px;
+  border: 3px solid #3f2c67;
+  max-width:100px;
+  width:100%;
+}
+
+img.prawy2 {
+  float:right;
+  margin: 10px 15px 10px 15px;
+  border: 3px solid #3f2c67;
+  max-width:220px;
+  width:100%;
+}
+
+img.prawy3 {
+  float:right;
+  margin: 10px 15px 10px 15px;
+}
+
+img.ramka {
+  border: 3px solid #3f2c67;
+}
+
+span.important {
+  color: #6d41b5;
+  font-family: Aileron-Regular;
+  font-weight:bold;
+}
+
+span.h3 {
+  color: #6d41b5;
+  font-size: 35px;
+  font-family: BebasNeue-Bold;
+  font-weight:bold;
+  text-shadow: 2px 2px #000000;
+}
+
+table, td, th {
+    text-align: center;
+    font-family:Comforta-Regular;
+    font-weight:normal;
+}
+
+table {
+    width: 100%;
+    border-spacing: 5px;
+    border-collapse:separate;
+}
+
+th {
+  font-family:BaseOne-Bold;
+  font-size: 35px;
+  background-color: rgb(79,48,197,0.4);
+  border: 2px solid #3f2c67;
+}
+
+td {
+  background-color: rgb(34,23,66,0.4);
+  border: 2px solid #3f2c67;
+  font-family:Comforta-Regular;
+  font-weight:normal;
+  font-size: 20px;
+}
+
+th.kamien {
+  font-family:BaseOne-Bold;
+  font-size: 25px;
+  background-color: rgb(79,48,197,0.4);
+  border: 2px solid #3f2c67;
+}
+
+td.kamien {
+  background-color: rgb(34,23,66,0.4);
+  border: 2px solid #3f2c67;
+  font-family:Comforta-Regular;
+  font-weight:normal;
+  text-align:justify;
+  padding: 6px;
+  font-size: 18px;
+}
+
+td.wins {
+  background-color: rgb(88,15,79,0.6);
+  border: 2px solid #934A8A;
+}
+
+
+td.wh {
+  background-color: rgb(149,22,34,0.6);
+  border: 2px solid #B45E66;
+}
+
+td.umic {
+  background-color: rgb(20,65,99,0.6);
+  border: 2px solid #425F78;
+}
+
+td.smich {
+  background-color: rgb(154,71,22,0.6);
+  border: 2px solid #BA8261;
+}
+
+td.amn {
+  background-color: rgb(154,110,22,0.6);
+  border: 2px solid #BA9C61;
+}
+
+td.hps {
+  background-color: rgb(38,27,107,0.6);
+  border: 2px solid #534B81;
+}
+
+td.amr {
+  background-color: rgb(16,109,59,0.6);
+  border: 2px solid #458462;
+}
+
+td.imk {
+  background-color: rgb(106,85,13,0.6);
+  border: 2px solid #EAD17F;
+}
+
+td.ams {
+  background-color: rgb(106,85,13,0.6);
+  border: 2px solid #EAD17F;
+}
+
+td.hc {
+  background-color: rgb(23,7,65,0.6);
+  border: 2px solid #704FC5;
+}
+
+hr {
+  border : 0;
+  height: 2px;
+  background-image: linear-gradient(to right, rgb(34,23,66,0.4), rgb(138, 123, 175,0.8), rgb(34,23,66,0.4));
+}
+
+
+.wizard-img {
+  width: 21em;
+}
+
+.blok-img {
+  height: 15em;
+}
+
+.stronaprzedmiotowa-img {
+  width: 30em;
+}
